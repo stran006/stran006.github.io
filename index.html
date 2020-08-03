@@ -49,7 +49,6 @@ p#introduce{
   font-size:1.17em;
   font-family:serif;
   padding-left:12px;
-  z-index:2;
 }
 .contacts{
   float-top:10px;
@@ -92,9 +91,17 @@ background-color: rgb(92, 124, 196);
   margin-top:12px;
   width:15%;
 }
-body{
-background: url(https://www.practicallyperfectvacations.com/wp-content/uploads/2017/01/ppv-gradient-background-to-white.jpg); background-size: 100% 100%;
-z-index:1;
+@import "compass/css3";
+
+html {
+  width:100%;
+  height:100%;
+   background:-webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.26)),-webkit-linear-gradient(108deg,#26d0ce,#1a2980 90%);
+}
+body {
+   width:100%;
+  height:100%;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAB9JREFUeNpiZmBg6AZiDiBWZ4YyQMCOCcYA4kMAAQYAHyYCCUdxidgAAAAASUVORK5CYII=');
 }
 </style>
  
